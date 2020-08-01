@@ -2,6 +2,10 @@
 
 Provides finder in preview.
 
+- open finder by `preview-finder:open`.
+- input word and hit enter key.
+- find next(or prev) word by `preview-finder:next` or `preview-finder:prev`.
+
 ![Screenshot](https://raw.githubusercontent.com/basyura/inkdrop-preview-finder/master/images/screenshot.png)
 
 ## Install
@@ -12,18 +16,17 @@ ipm install preview-finder
 
 ## Keybindings
 
-| Command                  | Explanation |
-| ------------------------ | ----------- |
-| preview-finder:open      | open finder |
-| preview-finder:find-next | find next   |
-| preview-finder:find-prev | find prev   |
-
+| Command             | Explanation |
+| ------------------- | ----------- |
+| preview-finder:open | open finder |
+| preview-finder:next | find next   |
+| preview-finder:prev | find prev   |
 
 keymap.cson
 
 ```cson
 '.mde-preview':
     '/': 'preview-finder:open'
-    'n': 'preview-finder:find-next'
-    'N': 'preview-finder:find-prev'
+    'n': 'preview-finder:next'
+    'N': 'preview-finder:prev'
 ```
