@@ -1,15 +1,13 @@
 {
   "name": "preview-finder",
   "main": "./lib/preview-finder",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/basyura/inkdrop-preview-finder",
   "license": "MIT",
   "engines": {
     "inkdrop": "^4.x"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
