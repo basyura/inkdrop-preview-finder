@@ -5,7 +5,7 @@
   "description": "A short description of your package",
   "keywords": [
   ],
-  "repository": "https://github.com/inkdropapp/preview-finder",
+  "repository": "https://github.com/basyura/inkdrop-preview-finder",
   "license": "MIT",
   "engines": {
     "inkdrop": "^4.x"
