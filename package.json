@@ -2,7 +2,7 @@
   "name": "preview-finder",
   "main": "./lib/preview-finder",
   "version": "0.5.0",
-  "description": "A short description of your package",
+  "description": "Provides finder in preview.",
   "keywords": [],
   "repository": "https://github.com/basyura/inkdrop-preview-finder",
   "license": "MIT",
