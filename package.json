@@ -1,7 +1,7 @@
 {
   "name": "preview-finder",
   "main": "./lib/preview-finder",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Provides finder in preview.",
   "keywords": [],
   "repository": "https://github.com/basyura/inkdrop-preview-finder",
