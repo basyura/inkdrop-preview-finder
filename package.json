@@ -4,7 +4,7 @@
   "version": "0.6.0",
   "description": "Provides finder in preview.",
   "keywords": [],
-  "repository": "https://github.com/basyura/inkdrop-preview-finder",
+  "repository": "git@github.com:basyura/inkdrop-preview-finder.git",
   "license": "MIT",
   "engines": {
     "inkdrop": "^4.x"
