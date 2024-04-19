@@ -30,3 +30,13 @@ keymap.cson
     'n': 'preview-finder:next'
     'N': 'preview-finder:prev'
 ```
+
+## api
+
+
+### find
+
+```js
+const pf = inkdrop.packages.activePackages["preview-finder"].mainModule;
+pf.find(ele.value);
+```
