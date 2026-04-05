@@ -2,7 +2,7 @@
 
 ## Project Structure & Module Organization
 
-This repository is a small Inkdrop plugin targeting Inkdrop v6 and later. Core behavior lives in `lib/preview-finder.js`, which registers commands, tracks matches, and exposes the public `find()` API. UI styling is isolated in `styles/preview-finder.less`. Documentation and release notes live in `README.md` and `CHANGELOG.md`. Visual assets are stored under `images/`.
+This repository is a small Inkdrop plugin targeting Inkdrop v6 and later. Core behavior lives in `lib/preview-finder.js`, which registers commands, tracks matches, and exposes the public `find()` API. UI styling is isolated in `styles/preview-finder.css`. Documentation and release notes live in `README.md` and `CHANGELOG.md`. Visual assets are stored under `images/`.
 
 Keep new logic in `lib/` and limit `styles/` to presentation-only changes. If you add assets, place them in `images/` and reference them from the README or plugin UI as needed.
 
@@ -12,8 +12,8 @@ This package does not define npm scripts. Use the commands below directly:
 
 - `npm install`: install local dependencies such as `inkdrop-model`.
 - `npm pack`: create a tarball to verify the package can be bundled cleanly.
-- `npx prettier --check lib/preview-finder.js styles/preview-finder.less`: check formatting before submitting changes.
-- `npx prettier --write lib/preview-finder.js styles/preview-finder.less`: apply the repository formatting rules.
+- `npx prettier --check lib/preview-finder.js styles/preview-finder.css`: check formatting before submitting changes.
+- `npx prettier --write lib/preview-finder.js styles/preview-finder.css`: apply the repository formatting rules.
 
 For local verification, load the plugin in Inkdrop and exercise `preview-finder:open`, `preview-finder:next`, and `preview-finder:prev` in the preview pane.
 

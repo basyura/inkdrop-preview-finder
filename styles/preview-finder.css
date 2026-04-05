@@ -1,0 +1,18 @@
+.preview-finder-focus {
+  border: 1px solid orange;
+}
+.preview-finder-matched {
+  background-color: var(--editor-search-match-background-color);
+}
+.preview-finder {
+  z-index: 10;
+  display: block;
+  padding: 8px;
+  box-sizing: border-box;
+  background: var(--editor-background-color);
+}
+.preview-finder input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
