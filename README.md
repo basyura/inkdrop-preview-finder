@@ -25,7 +25,7 @@ ipm install preview-finder
 keymap.cson
 
 ```cson
-'.mde-preview':
+'.mde-preview-container':
     '/': 'preview-finder:open'
     'n': 'preview-finder:next'
     'N': 'preview-finder:prev'
