@@ -1,7 +1,11 @@
 .preview-finder-focus {
   border: 1px solid orange;
 }
-.preview-finder-matched {
+::highlight(preview-finder-results) {
+  background-color: yellow;
+  color: black;
+}
+::highlight(preview-finder-matched) {
   background-color: var(--editor-search-match-background-color);
 }
 .preview-finder {
